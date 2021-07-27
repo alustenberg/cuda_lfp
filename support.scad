@@ -1,7 +1,8 @@
 // all units are mm
-
 $fa=2;
 $fs=.4;
+
+eps = .01;
 
 // https://www.batteryspace.com/prod-specs/7493.pdf
 // battery_length=165;
@@ -14,9 +15,6 @@ end_diam=chassis_diameter - 20;
 
 
 chassis_length=( battery_length + end_length ) / 2; // print in two bits
-
-pi = 3.145973;
-eps = .01;
 
 
 bores = [

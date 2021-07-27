@@ -3,14 +3,12 @@
 $fa=2;
 $fs=.4;
 
+eps = .01;
+
 chassis_diameter=120;
 end_diam=chassis_diameter - 20;
 chassis_length=20;
 end_length=10;
-
-pi = 3.145973;
-eps = .01;
-
 
 bores = [
     // https://www.design1st.com/Design-Resource-Library/engineering_data/TapDrillClearanceHoles.pdf
